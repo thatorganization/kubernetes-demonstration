@@ -19,7 +19,7 @@ public class EmployeeController {
 
     @GetMapping("/newer")
     public JsonNode getEmployees() {
-        LOGGER.info("VALUEEEEEEEEEAAASAAAEAEAEEEEESASASAERTRART");
+        LOGGER.info("AWESOMENESS");
         String value = System.getenv("SERVICES_DOMAIN") == null
             ? "THERE"
             : ("." + System.getenv("SERVICES_DOMAIN"));
@@ -31,7 +31,7 @@ public class EmployeeController {
 
     @GetMapping("/that")
     public String getEmployeesaaaaAA() {
-        return "AAAAAAAAAAß";
+        return "EEEE";
     }
 
 }
