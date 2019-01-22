@@ -26,7 +26,7 @@ public class EmployeeController {
 
         LOGGER.info("CAME HERE : [" + value + "]");
         //return null;
-        return restTemplate.getForObject("http://localhost:8081/employees", ObjectNode.class);
+        return restTemplate.getForObject("http://second/employees", ObjectNode.class);
     }
 
     @GetMapping("/that")
